@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Page2"
+    tools:context=".RequestPage"
     android:orientation="vertical">
 
     <ImageView
@@ -32,12 +32,15 @@
         android:layout_marginTop="20dp"/>
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="180dp"
         android:layout_marginRight="30dp"
         android:text="Next"
-        android:background="@drawable/btn"
-        android:textColor="@color/white"/>
+        android:drawableEnd="@drawable/arrow"
+        android:background="@drawable/btn2"
+        android:textColor="@color/black"
+        android:paddingEnd="10dp"
+        />
 </LinearLayout>

@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Page2 extends AppCompatActivity {
+public class RequestPage extends AppCompatActivity {
     Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page_2);
+        setContentView(R.layout.requestpage);
         btn = findViewById(R.id.btn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this, CreateAccount.class);
+                Intent intent = new Intent(RequestPage.this,LoginPage.class);
                 startActivity(intent);
             }
         });

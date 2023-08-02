@@ -12,18 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CabWay"
         tools:targetApi="31">
-        <activity android:name=".Page2"
-            android:exported="false"/>
-        <activity android:name=".FindLocation"
-            android:exported="true"/>
-        <activity android:name=".CreateAccount"
-            android:exported="true"/>
-        <activity android:name=".LoginPage"
-            android:exported="true"/>
+        <activity
+            android:name=".GoogleMap"
+            android:exported="false" />
+        <activity
+            android:name=".RequestPage"
+            android:exported="false" />
+        <activity
+            android:name=".FindLocation"
+            android:exported="true" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="true" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="true" />
         <activity
             android:name=".StartPage"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

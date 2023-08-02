@@ -30,4 +30,18 @@
         android:layout_gravity="center"
         android:textSize="20sp"
         android:textColor="@color/blue"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/btn2"
+        android:text="Get Started"
+        android:drawableEnd="@drawable/arrow"
+        android:paddingEnd="20dp"
+        android:paddingStart="40dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:id="@+id/btnStarted"/>
+
 </LinearLayout>
